@@ -6,7 +6,6 @@ function msp(state) {
         URL:state.videoURL,
         scale:state.videoScale
     }
-        
 }
 
 // this is a bolierplate but you must change what component gets connected

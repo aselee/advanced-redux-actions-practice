@@ -22,12 +22,12 @@ function users(state =[], action){
     // then add the new user
 
     // es6 version
-    // return [...state,action.value];
+    return [...state,action.value];
 
     // different way of code, but basically the same thing
-    let newArray = [...state];
-    newArray.push(action.value)
-    return newArray;
+    // let newArray = [...state];
+    // newArray.push(action.value)
+    // return newArray;
 
   }
   if(action.type === "REMOVE_USER"){
@@ -35,10 +35,7 @@ function users(state =[], action){
     // can't change the original array
     // we need a new array that has everything from state but one thing
     // by using the slice method
-
-    let newArr = [...state];
-    newArr.splice(action.value)
-    return newArr;
+    return state.slice(0, state.length-1)
   }
   return state;
 }

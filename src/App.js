@@ -40,7 +40,7 @@ import CityDropDown from './containers/CityDropDownContainer';
 import SearchTextBox from './containers/SearchTextBoxContainer';
 
 // import SortUsers from "./components/SortUsers";
-import SortUsers from "./components/SortUsers";
+import SortUsers from './containers/SortUsersContainer';
 
 // import ScaleVideo from "./components/ScaleVideo";
 import ScaleVideo from './containers/ScaleVideoContainer';
@@ -48,7 +48,8 @@ import ScaleVideo from './containers/ScaleVideoContainer';
 // import Modal from "./components/Modal";
 import Modal from './containers/ModalContainer';
 
-import ShowModal from "./components/ShowModal";
+// import ShowModal from "./components/ShowModal";
+import ShowModal from './containers/ShowModalContainer';
 
 function App() {
   return (

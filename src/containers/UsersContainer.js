@@ -3,7 +3,9 @@ import Users from '../components/Users';
 
 function msp(state) {
     return {
-      Users:state.users
+      Users:state.users,
+      firstNameFilter:state.searchText,
+      sortOn:state.currentUserSort
     }
   }
 

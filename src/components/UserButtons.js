@@ -1,4 +1,6 @@
 import React from 'react';
+// import {addUser, removeUser} from "../actions";
+// import { connect } from 'react-redux';
 
 function UserButtons(props) {
   return (
@@ -28,4 +30,22 @@ function UserButtons(props) {
       </div>
   );
 }
-export default UserButtons;
+
+export default UserButtons
+// function mapDispatchToProps(dispatch){
+//   return {
+//     add:function(user){
+//       var action = addUser(user);
+//       dispatch(action);
+//     },
+//     remove:function(user){
+//       var action = removeUser(user);
+//       dispatch(action);
+//     }
+//   }
+// }
+
+  // if you dont need mapStateToProps,
+  // you put null as a placeholder
+  //
+// export default connect(null,mapDispatchToProps)(UserButtons);

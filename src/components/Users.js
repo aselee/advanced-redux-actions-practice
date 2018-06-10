@@ -1,4 +1,6 @@
 import React from 'react';
+// import { connect } from 'react-redux';
+
 
 function Users(props) {
   var usersDivs = null;
@@ -23,3 +25,10 @@ function Users(props) {
   );
 }
 export default Users;
+// function map(state) {
+//   return (
+//     Users:state.users
+//   )
+// }
+// export default connect(map)(Users);
+

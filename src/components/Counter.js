@@ -1,4 +1,6 @@
 import React from 'react';
+// import { connect } from 'react-redux';
+
 
 function Counter(props) {
   return (
@@ -8,3 +10,11 @@ function Counter(props) {
   );
 }
 export default Counter;
+
+// function map(state) {
+//   return (
+//     count:state.currentCount
+//   )
+// }
+// export default connect(map)(Counter);
+

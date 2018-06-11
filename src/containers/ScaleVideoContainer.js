@@ -5,7 +5,7 @@ import ScaleVideo from '../components/ScaleVideo';
 function mdp(dispatch) {
     return {
         set:function(scale){
-            let action = ScaleVideo();
+            let action = setScaleVideo();
             dispatch(setScaleVideo(action));
         }
     }
